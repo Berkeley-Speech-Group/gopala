@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Gopala Anumanchipalli - Berkeley Speech Group</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<style>
+body {
+ font-family:"Helvetica Neue","Helvetica","Arial",sans-serif;
+ -webkit-font-smoothing:antialiased;
+ background-color : #F4F5F6;
+}
+h3, h4, h5 {
+  font-weight : 500;
+  letter-spacing : .01em;
+}
+.publogo { margin-right : 20px; }
+.publogo-soon { background: rgb(157,157,157);
+background: linear-gradient(0deg, rgba(157,157,157,1) 0%, rgba(170,170,170,1) 100%);}
+.publication { padding-left : 10px; padding-top : 3px; margin-bottom : 0px;}
+.publication strong a { color : #000; text-decoration  :none; }
+.publication strong a:hover { text-decoration : underline; }
+.publication .links a { margin-right : 15px; }
+ul{ list-style:none; padding:0; margin:0; }
+ul ul { padding-top : 6px; list-style : disc; padding-left : 40px; }
+ul li { padding-bottom:6px; }
+.nameplate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+a, a:hover { color : #3B7EA1; }
+nav a, nav a:hover { color : #000; }
+.student { text-align : left; align-self: center;}
+.student a, .student a:hover { color : inherit; }
+
+.topbar { 
+background: #003262;
+color : #fff;  
+}
+.topbar a { color : #fff; }
+.topbar h3 { color : #fff; }
+.darker { background-color : #E9EBED;
+}
+h4 { margin-top : 30px; }
+
+h5 { display : flex }
+.papers-selected .paperlo { display : none; }
+.papers-selected h5 { display : none; }
+.papers-selected .publication {
+  display : none; 
+}
+.paperhi-only { display : none; }
+.papers-selected .paperhi, .papers-selected .paperhi-only {
+  display : flex; 
+}
+
+.btn-dark { display : none; }
+.btn-light { display : inline; }
+
+</style>
+
+<link rel="shortcut icon" href="./Berkeley Speech Group_Files/eecs_logo.jpg">
+
+</head>
+<body data-new-gr-c-s-check-loaded="14.1080.0" data-gr-ext-installed="">
+
+
+<div class="topbar">
+<div class="container">
+<div>
+
+  <div class="row mt-0">
+  <div class="col-6 col-sm-6 col-md-4 col-lg-3 pl-4 py-4 ml-md-auto"><a href="./Berkeley Speech Group_Files/gopala.jpg"><img alt="" src="./Berkeley Speech Group_Files/gopala-small.jpg" id="me" class="float-left img-fluid img-fluid shadow-sm"></a></div>
+ 
+
+      <div class="col-12 col-sm-12 col-md-7 col-lg-5  pl-4 pb-4 py-0 py-md-1 mr-auto nameplate">
+        <h3>Gopala Anumanchipalli</h3>
+          <p class="my-0">
+              Assistant Professor<br>
+              Department of Electrical Engineering and Computer Sciences<br>            
+              University of California, Berkeley <br>
+             <br>
+             Office: 490A Cory Hall<br>
+             Email: gopala at eecs dot berkeley dot edu<br><br>
+             <a href="https://scholar.google.com/citations?user=VecEj6kAAAAJ&hl=en">Google Scholar</a> |
+             <a href="https://github.com/Berkeley-Speech-Group">Github</a> |
+             <a href="https://twitter.com/GopalaSpeech">Twitter</a> |
+             <a href="./Berkeley Speech Group_Files/anumanchipalli_cv.pdf">CV</a>
+          </p>    
+     </div>
+
+  </div>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<div>
+
+  <div class="row pb-4">
+
+    <div class="col-lg-6 order-0 col-12 px-4 papers-container papers-selected">
+      <h4 class="paperhi">Bio</h4>
+            <p>I am an Assistant Professor in the Department of Electrical Engineering and Computer Sciences at the <a href="https://www.berkeley.edu/">UC Berkeley</a>, and in the Department of Neurosurgery at <a href="https://www.ucsf.edu/">UC San Francisco</a>. I lead the Berkeley Speech Group.</p>
+            <p>I did my PhD at <a href="https://www.cmu.edu/">Carnegie Mellon University</a> and <a href="https://tecnico.ulisboa.pt/en/">Instituto Superior Tecnico</a>, where I was advised by <a href="http://www.cs.cmu.edu/~awb/">Alan Black</a> and <a href="https://www.hlt.inesc-id.pt/~lco/">Luis Caldas de Oliveira</a>, and was a postdoc at <a href="https://www.ucsf.edu/">UC San Francisco</a> with <a href="https://profiles.ucsf.edu/edward.chang">Edward Chang</a>. Earlier, I got my B.Tech and Master degrees from <a href="https://www.iiit.ac.in/">IIIT Hyderabad</a>.</p>
+    </div>
+
+    <div class="col-lg-6 order-0 col-12 px-4 papers-container papers-selected">
+
+      <h4 class="paperhi">Research</h4>
+      <p>Our group studies the intersection of speech processing, neuroscience, and artificial intelligence with an emphasis on human-centered speech and assistive technologies, including new paradigms for bio-inspired spoken language technologies, automated methods for early diagnosis, characterizing and rehabilitating disordered speech.</p>
+
+      <p>Our group is a part of <a href="https://bair.berkeley.edu/">Berkeley AI Research (BAIR)</a>. Prospective PhD students should apply <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">here</a>.</p> 
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="darker">
+<div class="container">
+<div>
+
+  <div class="row pb-4 pl-4">
+
+    <div class="col-12 px-0 papers-container papers-selected">
+      <a name="people">
+      <h4 class="paperhi pb-1">Lab Menbers</h4>
+    </a></div><a name="people">
+
+    </a><div class="col-2 col-lg-1 px-0 student pb-3"><a name="people">
+      </a><a href="https://cheoljun95.github.io/"><img src="./Berkeley Speech Group_Files/cheoljun.jpg" class="img-fluid shadow-sm">
+    </a></div><div class="col-4 col-lg-2 pr-2 student my-auto pb-3"><a href="https://cheoljun95.github.io/">
+      Cheol Jun Cho</a><br><small>PhD Student</small>
+    </div>
+
+
+    <div class="col-2 col-lg-1 px-0 student pb-3">
+      <a href="https://jlian2.github.io/"><img src="./Berkeley Speech Group_Files/jiachen.jpg" class="img-fluid shadow-sm">
+    </a></div><div class="col-4 col-lg-2 pr-2 student my-auto pb-3"><a href="https://basile.be/about-me/">
+      Jiachen Lian</a><br><small>PhD Student</small>
+    </div>
+
+
+    <div class="col-2 col-lg-1 px-0 student pb-3">
+      <a href="https://www.kaylolittlejohn.com/"><img src="./Berkeley Speech Group_Files/kaylo.jpg" class="img-fluid shadow-sm">
+    </a></div><div class="col-4 col-lg-2 pr-2 student my-auto pb-3"><a href="https://www.kaylolittlejohn.com/">
+      Kaylo Littlejohn</a><br><small>PhD Student</small>
+    </div>
+
+
+
+    <div class="col-2 col-lg-1 px-0 student pb-3">
+      <a href="https://peter.onrender.com/"><img src="./Berkeley Speech Group_Files/peter.jpg" class="img-fluid shadow-sm">
+    </a></div><div class="col-4 col-lg-2 pr-2 student my-auto pb-3"><a href="https://peter.onrender.com/">
+      Peter Wu</a><br><small>PhD Student</small>
+    </div>
+
+    <div class="col-2 col-lg-1 px-0 student pb-3">
+      <a href="https://www.stat.berkeley.edu/~yugroup/people/Robbie.html"><img src="./Berkeley Speech Group_Files/robbie.jpg" class="img-fluid shadow-sm">
+    </a></div><div class="col-4 col-lg-2 pr-2 student my-auto pb-3"><a href="https://www.stat.berkeley.edu/~yugroup/people/Robbie.html">
+      Robbie Netzorg</a><br><small>PhD Student</small>
+    </div>
+
+    <div class="col-2 col-lg-1 px-0 student pb-3">
+      <a href="https://tinglok.netlify.app/"><img src="./Berkeley Speech Group_Files/tingle.jpg" class="img-fluid shadow-sm">
+    </a></div><div class="col-4 col-lg-2 pr-2 student my-auto pb-3"><a href="https://tinglok.netlify.app/">
+      Tingle Li</a><br><small>PhD Student</small>
+    </div>
+
+    <div class="col-12 px-0 pb-1 papers-container papers-selected">
+      <h4 class="paperhi">Alumni</h4>
+      <p><a href="https://joshchartier.github.io/">Josh Chartier</a> (BioE PhD 2019, now Research Scientist at Meta Reality Labs)</p>
+    </div>
+
+
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div>
+  <div class="row">
+    <div class="order-0 col-12 px-4 papers-container papers-selected">
+      <a name="papers">
+ 
+      <div class="paperhi paperhi-only">
+        <h4>Selected Publications</h4>
+      </div>
+        
+          </a><div class="publication media paperhi"><a name="papers"></a>
+          <p><strong><a href="https://www.isca-speech.org/archive/pdfs/interspeech_2022/wu22i_interspeech.pdf">Deep Speech Synthesis from Articulatory Representations</a></strong> <span class="badge bg-danger text-light">New!</span><br>
+          Peter Wu, Shinji Watanabe, Louis Goldstein, Alan Black, <b>Gopala Anumanchipalli</b><br>
+          Interspeech, 2022<br>
+          <span class="links"><a href="https://www.isca-speech.org/archive/pdfs/interspeech_2022/wu22i_interspeech.pdf">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.isca-speech.org/archive/pdfs/interspeech_2022/lian22_interspeech.pdf">Towards Improved Zero-shot Voice Conversion with Conditional DSVAE</a></strong> <span class="badge bg-danger text-light">New!</span><br>
+          Jiachen Lian, Chunlei Zhang, <b>Gopala Anumanchipalli</b>, Dong Yu<br>
+          Interspeech, 2022<br>
+          <span class="links"><a href="https://jlian2.github.io/Improved-Voice-Conversion-with-Conditional-DSVAE/">Project Page</a> <a href="https://www.isca-speech.org/archive/pdfs/interspeech_2022/lian22_interspeech.pdf">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.isca-speech.org/archive/pdfs/interspeech_2022/lian22b_interspeech.pdf">Deep Neural Convolutive Matrix Factorization for Articulatory Representation Decomposition</a></strong> <span class="badge bg-danger text-light">New!</span><br>
+          Jiachen Lian, Alan Black, Louis Goldstein, <b>Gopala Anumanchipalli</b><br>
+          Interspeech, 2022<br>
+          <span class="links"><a href="https://www.isca-speech.org/archive/pdfs/interspeech_2022/lian22b_interspeech.pdf">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://arxiv.org/pdf/2206.02512.pdf">UTTS: Unsupervised TTS with Conditional Disentangled Sequential Variational Auto-encoder</a></strong> <span class="badge bg-danger text-light">New!</span><br>
+          Jiachen Lian, Chunlei Zhang, <b>Gopala Anumanchipalli</b>, Dong Yu<br>
+          arXiv, 2022<br>
+          <span class="links"><a href="https://neurtts.github.io/utts_demo/">Project Page</a> <a href="https://arxiv.org/pdf/2206.02512.pdf">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.nejm.org/doi/pdf/10.1056/NEJMoa2027540?articleTools=true">Neuroprosthesis for Decoding Speech in a Paralyzed Person with Anarthria</a></strong><br>
+          David A Moses, Sean Metzger, Jessie Liu, <b>Gopala Anumanchipalli</b>, et al.<br>
+          New England Journal of Medicine, 2021<br>
+          <span class="links"><a href="https://www.nejm.org/doi/pdf/10.1056/NEJMoa2027540?articleTools=true">Paper</a> <a href="https://www.ucsf.edu/news/2021/07/420946/neuroprosthesis-restores-words-man-paralysis">Press</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://changlab.ucsf.edu/s/Sun_2020_JNeuralEng.pdf">Brain2Char: A Deep Architecture for Decoding Text from Brain Recordings</a></strong><br>
+          Pengfei Sun, <b>Gopala Anumanchipalli</b>, Edward Chang<br>
+          Journal of Neural Engineering, 2020<br>
+          <span class="links"><a href="https://changlab.ucsf.edu/s/Sun_2020_JNeuralEng.pdf">Paper</a></span> 
+          </p>
+          </div>                  
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://jamanetwork.com/journals/jama/article-abstract/2758116">Toward a Speech Neuroprosthesis</a></strong><br>
+          Edward Chang, <b>Gopala Anumanchipalli</b><br>
+          Journal of the American Medical Association (JAMA), 2020<br>
+          <span class="links"><a href="https://jamanetwork.com/journals/jama/article-abstract/2758116">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.nature.com/articles/s41586-019-1119-1?TB_iframe=true&width=921.6&height=921.6">Speech Synthesis from Nural Decoding of Spoken Sentences</a></strong> <span class="badge bg-danger text-light">Hot!</span><br>
+          <b>Gopala Anumanchipalli</b>, Josh Chartier, Edward Chang<br>
+          Nature, 2019<br>
+          <span class="links"><a href="https://www.nature.com/articles/s41586-019-1119-1?TB_iframe=true&width=921.6&height=921.6">Paper</a> <a href="https://www.youtube.com/watch?v=3pv0vT82Cys&ab_channel=UCSFNeurosurgery">Video</a> <a href="https://bionewscentral.com/speech-synthesis-from-neural-decoding-of-spoken-sentences/">Press</a></span> 
+          </p>
+          </div>          
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.sciencedirect.com/science/article/pii/S0896627318303398">Encoding of Articulatory Kinematic Trajectories in Human Speech Sensorimotor Cortex</a></strong><br>
+          Josh Chartier, <b>Gopala Anumanchipalli</b>, Keith Johnson, Edward Chang<br>
+          Neuron, 2018<br>
+          <span class="links"><a href="https://www.sciencedirect.com/science/article/pii/S0896627318303398">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://arxiv.org/pdf/2206.02512.pdf">Data-driven Intonational Phonology</a></strong><br>
+          <b>Gopala Anumanchipalli</b>, Alan Black, Luis Oliveira<br>
+          Journal of The Acoustical Society of America, 2013<br>
+          <span class="links"><a href="https://neurtts.github.io/utts_demo/">Project Page</a> <a href="https://arxiv.org/pdf/2206.02512.pdf">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://asa.scitation.org/doi/abs/10.1121/1.4831574">Data-driven Intonational Phonology</a></strong><br>
+          <b>Gopala Anumanchipalli</b>, Alan Black, Luis Oliveira<br>
+          Journal of The Acoustical Society of America, 2013<br>
+          <span class="links"><a href="https://asa.scitation.org/doi/abs/10.1121/1.4831574">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.cs.cmu.edu/~gopalakr/publications/stylef0vc_icassp13.pdf">A Style Capturing Approach to F0 Transformation in Voice Conversion</a></strong><br>
+          <b>Gopala Anumanchipalli</b>, Luis Oliveira, Alan Black<br>
+          ICASSP, 2013 <font color="red"><strong>(IEEE Spoken Language Processing Grant Award)</strong></font><br>
+          <span class="links"><a href="https://www.cs.cmu.edu/~gopalakr/publications/stylef0vc_icassp13.pdf">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.cs.cmu.edu/~gopalakr/publications/agroupspss_icassp13.pdf">Accent Group modeling for Improved Prosody in Statistical Parameteric Speech Synthesis</a></strong><br>
+          <b>Gopala Anumanchipalli</b>, Luis Oliveira, Alan Black<br>
+          ICASSP, 2013<br>
+          <span class="links"><a href="https://www.cs.cmu.edu/~gopalakr/publications/agroupspss_icassp13.pdf">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="http://www.cs.cmu.edu/afs/cs/Web/People/awb/papers/slt2012/slt2012_intent.pdf">Intent Transfer in Speech-to-Speech Machine Translation</a></strong><br>
+          <b>Gopala Anumanchipalli</b>, Luis Oliveira, Alan Black<br>
+          SLT, 2012<br>
+          <span class="links"><a href="http://www.cs.cmu.edu/afs/cs/Web/People/awb/papers/slt2012/slt2012_intent.pdf">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.cs.cmu.edu/~gopalakr/publications/8341.pdf">Text-dependent Pathological Voice Detection</a></strong><br>
+          <b>Gopala Anumanchipalli</b>, Hugo Meinedo, Miguel Bugalho, Isabel Trancoso, Luis Oliveira, Alan Black<br>
+          Interspeech, 2012<br>
+          <span class="links"><a href="https://www.cs.cmu.edu/~gopalakr/publications/8341.pdf">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.cs.cmu.edu/~gopalakr/publications/anumanchipalli_spamf0.PDF">A Statistical Phrase/Accent Model for Intonation Modeling</a></strong><br>
+          <b>Gopala Anumanchipalli</b>, Luis C. Oliveira, Alan Black<br>
+          Interspeech, 2011<br>
+          <span class="links"><a href="https://www.cs.cmu.edu/~gopalakr/publications/anumanchipalli_spamf0.PDF">Paper</a></span> 
+          </p>
+          </div>
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.cs.cmu.edu/~gopalakr/publications/ctagging_icassp08.pdf">Significance of Early Tagged Contextual Graphemes in Grapheme Based Speech Synthesis and Recognition Systems</a></strong><br>
+          <b>Gopala Anumanchipalli</b>, Kishore Prahallad, Alan Black<br>
+          ICASSP, 2008<br>
+          <span class="links"><a href="https://www.cs.cmu.edu/~gopalakr/publications/ctagging_icassp08.pdf">Paper</a></span> 
+          </p>
+          </div>                            
+
+          <div class="publication media paperhi">
+          <p><strong><a href="https://www.cs.cmu.edu/~gopalakr/publications/pinference_icassp07.pdf">Improving Pronunciation Inference using n-best list, Acoustics and Orthograhy</a></strong><br>
+          <b>Gopala Anumanchipalli</b>, Mosur Ravishankar, Raj Reddy<br>
+          ICASSP, 2007<br>
+          <span class="links"><a href="https://www.cs.cmu.edu/~gopalakr/publications/pinference_icassp07.pdf">Paper</a></span> 
+          </p>
+          </div>                                                           
+
+
+
+
+      </div>
+      </div>
+</div>
+</div>
+
+<div class="darker">
+<div class="container">
+<div>
+
+
+  <div class="row">
+
+    <div class="col-lg-6 col-12 px-4 order-1">
+
+      <a name="teaching">
+
+      <h4>Teaching</h4>
+      </a><ul><a name="teaching">
+        <li><a href="https://www2.eecs.berkeley.edu/Courses/EE225D/">EE225D: Audio Signal Processing in Humans and Machines, Fall 2022</a></li>
+        <li><a href="https://www2.eecs.berkeley.edu/Courses/EE123/">EE123: Digital Signal Processing, Spring 2022</a></li>
+        <li><a href="https://www2.eecs.berkeley.edu/Courses/EE225D/">EE225D: Audio Signal Processing in Humans and Machines, Fall 2021</a></li>
+      </ul>                    
+            
+    </div>
+    <div class="col-lg-6 col-12 px-4 order-1 pb-4">
+           
+    <a name="funding">
+    <h4>Funding</h4>
+      <ul>
+        <li>National Science Foundation</li>
+        <li>Rose Hills Innovator</li>
+        <li>Google Research</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
+</div>
+</div>
+
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
